@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    margin: 10% 10% 10% 10%;
+    text-align: justify;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#sessao{
+    text-align: left;
+    line-height: 3px;
+}
+
+#web{
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#foto{
+    width: 90px;
+    height: 90px;
+    padding-left: 92%;
+    margin-top: -51px;
+}
+
+.barra{
+    border: solid 1px blueviolet;
+}
+
+#exp{
+    margin-right: 75%;
+}
+
+#texto{
+    margin-top: -7%;
+    margin-left: 25%;
+}
+
+.nazul{
+    color: blueviolet;
+}
