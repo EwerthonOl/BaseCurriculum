@@ -1,41 +1,122 @@
-body{
-    font-family: sans-serif;
-    margin: 10% 10% 10% 10%;
-    text-align: justify;
-    background-color: black;
-    color: whitesmoke;
+/*====  RESET ============================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#sessao{
-    text-align: left;
-    line-height: 3px;
+ul {
+  list-style: none;
 }
 
-#web{
-    font-size: 15px;
-    color: blueviolet;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-#foto{
-    width: 90px;
-    height: 90px;
-    padding-left: 92%;
-    margin-top: -51px;
+img {
+  width: 100%;
 }
 
-.barra{
-    border: solid 1px blueviolet;
+body {
+  font-family: sans-serif;
+  margin: 10% 5%;
+
+  background-image: linear-gradient(
+    -225deg,
+    #3d4e81 0%,
+    #5753c9 48%,
+    #6e7ff3 100%
+  );
+  color: whitesmoke;
 }
 
-#exp{
-    margin-right: 75%;
+h3 {
+  color: #fbff00ea;
 }
 
-#texto{
-    margin-top: -7%;
-    margin-left: 25%;
+.barra {
+  border: solid 1px rgb(49, 0, 95);
+  margin: 1rem 0;
 }
 
-.nazul{
-    color: blueviolet;
+.section {
+  margin-top: 3rem;
+}
+
+/*====  HEADER ============================ */
+
+#header {
+  display: flex;
+  align-items: center;
+}
+
+#header h2 {
+  margin-top: 1rem;
+}
+
+.strong {
+  color: #000000;
+}
+
+#image {
+  width: 90px;
+  height: 90px;
+}
+
+/*====  SOBRE ============================ */
+
+#sobreLista li {
+  margin-top: 1rem;
+}
+
+/*====  EXP ============================ */
+
+.exp {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.two {
+  border-top: solid 1px;
+  padding-top: 1rem;
+  width: 50%;
+}
+
+/*====  EDUCAÇÃO ============================ */
+
+.institucion {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.institucionInfo {
+  margin-bottom: 3rem;
+}
+
+/*====  CONTATS ============================ */
+.contats {
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contats .contatLink {
+  color: whitesmoke;
+}
+
+@media (min-width: 900px) {
+  body {
+    margin: 2rem;
+  }
+
+  #header {
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+
+  .section {
+    margin-top: 5rem;
+  }
 }
